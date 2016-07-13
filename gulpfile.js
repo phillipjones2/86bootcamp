@@ -7,8 +7,8 @@ const watch = require('gulp-watch');
 
 const paths = {
     babel_in: 'src/es6/index.js',
-    scss_in: 'src/scss/main.scss',
-    pug_in: 'src/**/*.pug'
+    scss_in: 'src/scss/*.scss',
+    pug_in: 'src/*.pug'
 }
 
 
@@ -31,7 +31,9 @@ gulp.task('compile-scss', () => {
 // PUG
 gulp.task('compile-pug', () => {
   return gulp.src(paths.pug_in)
-  .pipe(pug())
+  .pipe(pug({
+    pretty: true
+  }))
     .pipe(gulp.dest('client'));
 });
 
