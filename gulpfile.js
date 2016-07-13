@@ -8,13 +8,13 @@ const watch = require('gulp-watch');
 const paths = {
     babel_in: 'src/es6/index.js',
     scss_in: 'src/scss/main.scss',
-    pug_in: 'src/views/*.pug'
+    pug_in: 'src/**/*.pug'
 }
 
 
 // BABEL
 gulp.task('compile-babel', () => {
-	return gulp.src('src/es6/index.js')
+	return gulp.src(paths.babel_in)
 		.pipe(babel({
 			presets: ['es2015']
 		}))
@@ -23,14 +23,14 @@ gulp.task('compile-babel', () => {
 
 // SCSS
 gulp.task('compile-scss', () => {
-  return gulp.src('src/scss/main.scss')
+  return gulp.src(paths.scss_in)
     .pipe(scss())
     .pipe(gulp.dest('client'));
 });
 
 // PUG
 gulp.task('compile-pug', () => {
-  return gulp.src('src/views/*.pug')
+  return gulp.src(paths.pug_in)
   .pipe(pug())
     .pipe(gulp.dest('client'));
 });
@@ -41,8 +41,8 @@ gulp.task('compile-pug', () => {
 
 gulp.task('watch', ( ) => {
    gulp.watch(paths.babel_in, ['compile-babel']);
-   gulp.watch(paths.scss_in, ['compile-scss']) 
-   gulp.watch(paths.pug_in, ['compile-pug']) 
+   gulp.watch(paths.scss_in, ['compile-scss'])
+   gulp.watch(paths.pug_in, ['compile-pug'])
 });
 
 
