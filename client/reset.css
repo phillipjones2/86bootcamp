@@ -41,25 +41,3 @@ ol, ul {
 
 * {
   box-sizing: border-box; }
-
-.bg-red {
-  background: red; }
-
-.bg-blue {
-  background: blue; }
-
-.bg-purple {
-  background: purple; }
-
-.bg-pink {
-  background: pink; }
-
-nav ul {
-  font-size: 1.4rem; }
-
-#nav-container {
-  width: 100%;
-  max-width: 1200px; }
-
-#logo {
-  font-size: 2.4rem; }
