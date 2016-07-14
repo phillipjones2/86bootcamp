@@ -5,3 +5,9 @@ header {
   background-position: 0 75%; }
   header h1 {
     font-size: 4.6rem; }
+
+#header-container {
+  height: 65%;
+  color: white; }
+  #header-container h3 {
+    text-align: center; }
