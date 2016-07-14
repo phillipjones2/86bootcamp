@@ -1,0 +1,18 @@
+$primary-type: "Open Sans", sans-serif;
+$secondary-type: "Montserrat", sans-serif;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $primary-type;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $secondary-type;
+  font-weight: 900;
+
+}
