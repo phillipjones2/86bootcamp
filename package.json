@@ -1,10 +1,10 @@
 {
-  "name": "chat-example",
+  "name": "86 Bootcamp",
   "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "description": "a website to aggregate free computer science resources",
   "main": "server.js",
   "repository": "",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "author": "Phillip Jones <phillipemersonjones@gmail.com> Colton Colcleasure <colshacol@gmail.com> Dylan",
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.10.4",
