@@ -1,5 +1,5 @@
 {
-  "name": "86 Bootcamp",
+  "name": "86bootcamp",
   "version": "0.0.0",
   "description": "a website to aggregate free computer science resources",
   "main": "server.js",
