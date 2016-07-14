@@ -1,8 +1,5 @@
-$main_color : #1D1E30;
-
 header {
   height: 350px;
   background: url(assets/bg2.jpg) no-repeat;
   background-size: cover;
-  background-position: 0 75%;
-}
+  background-position: 0 75%; }
