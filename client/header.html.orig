@@ -1,0 +1,22 @@
+
+<header class="box-col">
+  <nav class="all-12 box-center">
+    <div class="jc-between" id="nav-container">
+      <p id="logo">86 Bootcamp</p>
+      <ul class="jc-between box all-3 ai-center">
+        <li>linker</li>
+        <li>linkey</li>
+        <li>l</li>
+      </ul>
+      <button>button</button>
+    </div>
+  </nav>
+  <div class="box-col ai-center" id="header-container">
+    <h1>Lorem ipsum dola</h1><span></span>
+    <h3 class="all-3">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    </h3>
+    <button>button</button>
+  </div>
+</header>
