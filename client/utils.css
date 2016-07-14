@@ -9,3 +9,11 @@
 
 .bg-pink {
   background: pink; }
+
+.primary-type {
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 300;
+  color: white; }
+
+.secondary-type {
+  font-family: "Montserrat", sans-serif !important; }
