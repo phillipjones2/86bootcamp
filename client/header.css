@@ -1,0 +1,7 @@
+header {
+  height: 350px;
+  background: url(assets/bg2.jpg) no-repeat;
+  background-size: cover;
+  background-position: 0 75%; }
+  header h1 {
+    font-size: 4.6rem; }
