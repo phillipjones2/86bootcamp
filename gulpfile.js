@@ -7,8 +7,10 @@ const watch = require('gulp-watch');
 
 const paths = {
     babel_in: 'src/es6/index.js',
-    scss_in: 'src/scss/*.scss',
-    pug_in: 'src/*.pug'
+    scss_in: 'src/scss/main.scss',
+    scss_all: 'src/scss/**/*.scss',
+    pug_in: 'src/views/*.pug',
+    pug_all: 'src/**/*.pug'
 }
 
 
@@ -43,21 +45,6 @@ gulp.task('compile-pug', () => {
 
 gulp.task('watch', ( ) => {
    gulp.watch(paths.babel_in, ['compile-babel']);
-   gulp.watch(paths.scss_in, ['compile-scss'])
-   gulp.watch(paths.pug_in, ['compile-pug'])
+   gulp.watch(paths.scss_all, ['compile-scss'])
+   gulp.watch(paths.pug_all, ['compile-pug'])
 });
-
-
-
-
-/////////////////////////
-
-
-// // Rerun the task when a file changes
-// gulp.task('watch', function() {
-//   gulp.watch(paths.scripts, ['scripts']);
-//   gulp.watch(paths.images, ['images']);
-// });
-
-// // The default task (called when you run `gulp` from cli)
-// gulp.task('default', ['watch', 'scripts', 'images']);

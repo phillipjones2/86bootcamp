@@ -1,28 +1,19 @@
-$primary-type: "Open Sans", sans-serif;
-$secondary-type: "Montserrat", sans-serif;
+$primary-type: 'Quicksand', sans-serif;
+$secondary-type: "Quicksand", sans-serif;
 
 html {
   font-size: 62.5%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 900;
 }
 
 body {
   font-family: $primary-type;
   font-size: 1.8rem;
   font-weight: 300;
-}
-
-h1,h2,h3,h4,h5,h6 {
-  font-family: $secondary-type;
-  font-weight: 900;
-
-}
-
-body {
-  background-color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
   line-height: 1.45;
-  color: #333;
 }
 
 h1, h2, h3, h4 {
@@ -36,10 +27,18 @@ h1 {
   font-size: 5.063rem;
 }
 
-h2 {font-size: 3.375rem;}
+h2 {
+  font-size: 3.375rem;
+}
 
-h3 {font-size: 2.25rem;}
+h3 {
+  font-size: 2.25rem;
+}
 
-h4 {font-size: 1.5rem;}
+h4 {
+  font-size: 1.5rem;
+}
 
-small {font-size: 0.667rem;}
+small {
+  font-size: 0.667rem;
+}

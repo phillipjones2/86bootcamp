@@ -24,7 +24,7 @@
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
 15 verbose pkgid 86bootcamp@0.0.0
 16 verbose cwd /home/colshacol/Code/86
-17 error Linux 4.6.3-1-ARCH
+17 error Linux 4.6.4-1-ARCH
 18 error argv "/usr/bin/node" "/usr/bin/npm" "start"
 19 error node v6.3.0
 20 error npm  v3.10.5
